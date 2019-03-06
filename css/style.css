@@ -424,14 +424,19 @@ template {
   padding-top: 5px; }
 
 .description_button {
-  background-color: #073763;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1360D8), color-stop(96%, #0260B6));
+  background-image: linear-gradient(-180deg, #1360D8 0%, #0260B6 96%);
   border: none;
-  width: 148px;
-  height: 26px;
-  font-family: "OpenSans-Bold";
+  width: 200px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: "OpenSans";
+  font-weight: 600;
   font-size: 17px;
-  text-transform: uppercase;
+  -webkit-box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.3);
   color: #fff;
+  text-transform: uppercase;
   border-radius: 5px;
   cursor: pointer;
   display: block;
