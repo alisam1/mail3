@@ -8,7 +8,7 @@
 .content_info
 {
   color: #333333;
-  font-family: "Balsamiq-Regular";
+  font-family: "OpenSans";
   font-size: 15px;
   text-align: left;
 }
@@ -36,10 +36,22 @@
 {
   width: 266px;
   color: #333333;
-  font-family: "Balsamiq-Regular";
+  font-family: "OpenSans-Italic";
   font-size: 15px;
   text-align: left;
-  font-style: italic;
+}
+
+.green
+{
+  color: #2aa76d;
+  font-weight: bold;
+}
+
+
+.red
+{
+  color: #df553a;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

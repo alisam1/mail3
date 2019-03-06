@@ -330,7 +330,7 @@ template {
 .page_title {
   width: 565px;
   color: #333333;
-  font-family: "Balsamiq-Regular";
+  font-family: "OpenSans";
   font-size: 23px;
   text-transform: uppercase;
   text-align: center;
@@ -350,7 +350,7 @@ template {
 
 .content_info {
   color: #333333;
-  font-family: "Balsamiq-Regular";
+  font-family: "OpenSans";
   font-size: 15px;
   text-align: left; }
 
@@ -376,10 +376,17 @@ template {
 .instruction_info {
   width: 266px;
   color: #333333;
-  font-family: "Balsamiq-Regular";
+  font-family: "OpenSans-Italic";
   font-size: 15px;
-  text-align: left;
-  font-style: italic; }
+  text-align: left; }
+
+.green {
+  color: #2aa76d;
+  font-weight: bold; }
+
+.red {
+  color: #df553a;
+  font-weight: bold; }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .content_block {
@@ -410,7 +417,7 @@ template {
 
 .description_note {
   color: #333333;
-  font-family: "Balsamiq-Regular";
+  font-family: "OpenSans";
   font-size: 13px;
   text-align: left;
   padding-left: 5px;
@@ -421,7 +428,7 @@ template {
   border: none;
   width: 148px;
   height: 26px;
-  font-family: "Balsamiq-Regular";
+  font-family: "OpenSans-Bold";
   font-size: 17px;
   text-transform: uppercase;
   color: #fff;
@@ -440,13 +447,19 @@ template {
     margin-bottom: 40px; } }
 
 @font-face {
-  font-family: "Balsamiq-Regular";
-  src: url("../fonts/BalsamiqSansRegular.woff2") format("woff2"), url("../fonts/BalsamiqSansRegular.woff") format("woff"), url("../fonts/BalsamiqSansRegular.ttf") format("truetype");
+  font-family: "OpenSans";
+  src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff"), url("../fonts/opensans.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
-  font-family: "Balsamiq-Bold";
-  src: url("../fonts/BalsamiqSansBold.woff2") format("woff2"), url("../fonts/BalsamiqSansBold.woff") format("woff"), url("../fonts/BalsamiqSansBold.ttf") format("truetype");
+  font-family: "OpenSans-Italic";
+  src: url("../fonts/opensansitalic.woff2") format("woff2"), url("../fonts/opensansitalic.woff") format("woff"), url("../fonts/opensansitalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff"), url("../fonts/opensansbold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal; }

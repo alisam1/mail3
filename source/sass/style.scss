@@ -7,19 +7,29 @@
 
 
 @font-face {
-    font-family: "Balsamiq-Regular";
-    src: url("../fonts/BalsamiqSansRegular.woff2") format('woff2'),
-         url("../fonts/BalsamiqSansRegular.woff") format('woff'),
-         url("../fonts/BalsamiqSansRegular.ttf") format('truetype');
+    font-family: "OpenSans";
+    src: url("../fonts/opensans.woff2") format('woff2'),
+         url("../fonts/opensans.woff") format('woff'),
+         url("../fonts/opensans.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "OpenSans-Italic";
+    src: url("../fonts/opensansitalic.woff2") format('woff2'),
+         url("../fonts/opensansitalic.woff") format('woff'),
+         url("../fonts/opensansitalic.ttf") format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
   @font-face {
-      font-family: "Balsamiq-Bold";
-      src: url("../fonts/BalsamiqSansBold.woff2") format('woff2'),
-           url("../fonts/BalsamiqSansBold.woff") format('woff'),
-           url("../fonts/BalsamiqSansBold.ttf") format('truetype');
+      font-family: "OpenSans-Bold";
+      src: url("../fonts/opensansbold.woff2") format('woff2'),
+           url("../fonts/opensansbold.woff") format('woff'),
+           url("../fonts/opensansbold.ttf") format('truetype');
       font-weight: 700;
       font-style: normal;
   }
