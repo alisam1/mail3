@@ -1,0 +1,65 @@
+.content_block
+{
+  width: 589px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.content_info
+{
+  color: #333333;
+  font-family: "Balsamiq-Regular";
+  font-size: 15px;
+  text-align: left;
+}
+
+.content_block
+{
+  padding-bottom: 40px;
+}
+
+.content_instruction
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.instruction_img img
+{
+  width: 303px;
+  height: 194px;
+}
+
+.instruction_info
+{
+  width: 266px;
+  color: #333333;
+  font-family: "Balsamiq-Regular";
+  font-size: 15px;
+  text-align: left;
+  font-style: italic;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .content_block
+  {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  .content_instruction
+  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    &--low
+    {
+      flex-direction: column-reverse;
+    }
+  }
+
+}

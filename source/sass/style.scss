@@ -1,0 +1,25 @@
+@import "variables.scss";
+@import "blocks/normalize.scss";
+@import "blocks/container.scss";
+@import "blocks/page_header.scss";
+@import "blocks/main_content.scss";
+@import "blocks/description.scss";
+
+
+@font-face {
+    font-family: "Balsamiq-Regular";
+    src: url("../fonts/BalsamiqSansRegular.woff2") format('woff2'),
+         url("../fonts/BalsamiqSansRegular.woff") format('woff'),
+         url("../fonts/BalsamiqSansRegular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+  @font-face {
+      font-family: "Balsamiq-Bold";
+      src: url("../fonts/BalsamiqSansBold.woff2") format('woff2'),
+           url("../fonts/BalsamiqSansBold.woff") format('woff'),
+           url("../fonts/BalsamiqSansBold.ttf") format('truetype');
+      font-weight: 700;
+      font-style: normal;
+  }

@@ -1,0 +1,47 @@
+.description_info
+{
+  width: 593px;
+  height: 49px;
+  background-color: #dddddd;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.description_note
+{
+  color: #333333;
+  font-family: "Balsamiq-Regular";
+  font-size: 13px;
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.description_button
+{
+  background-color: #073763;
+  border: none;
+  width: 148px;
+  height: 26px;
+  font-family: "Balsamiq-Regular";
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .description_info
+  {
+    width: 300px;
+    height: 49px;
+    background-color: #dddddd;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
