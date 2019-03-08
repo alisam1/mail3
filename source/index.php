@@ -112,6 +112,7 @@ $instructionText = include $_SERVER['DOCUMENT_ROOT'] . "/system/instruction_smal
     </div>
   </div>
 </div>
+</section>
 
 <?php if (isset($_GET['instmoney'])) { ?>
   <section class="description container">
@@ -122,3 +123,4 @@ $instructionText = include $_SERVER['DOCUMENT_ROOT'] . "/system/instruction_smal
   </section>
   <?php
 } ?>
+</main>
