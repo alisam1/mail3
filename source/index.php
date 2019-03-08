@@ -71,7 +71,13 @@ $instructionText = include $_SERVER['DOCUMENT_ROOT'] . "/system/instruction_smal
   <?php endif; ?>
 </style>
 
-<h3 class="olymp-instruction__h3"><?= $instructionText['instruction-first-paragraph'] ?></h3>
+<header class="page_header container">
+  <h1 class="page_title"><?= $instructionText['instruction-first-paragraph'] ?></h1>
+</header>
+
+<main>
+  <section class="main_content container">
+    <div class="content_block">
 <div class="cont__instruction_small">
   <?php if(!empty($instructionText['instruction-p-1'])) { ?>
     <div class="content_block">
@@ -79,6 +85,7 @@ $instructionText = include $_SERVER['DOCUMENT_ROOT'] . "/system/instruction_smal
       <p class="content_info"><?= $instructionText['instruction-p-2'] ?></p>
     </div>
   <?php } ?>
+</div>
   <div class="content_block">
     <p class="content_info"><?= $instructionText['instruction-step-1'] ?></p>
     <div class="content_instruction">
